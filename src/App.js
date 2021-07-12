@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Deck from './Views/CardDeck/Deck';
 import Intro from './Views/Introduction/Intro';
-
+import Home from './Views/Home/Home'
 
 
 
@@ -10,10 +10,10 @@ import Intro from './Views/Introduction/Intro';
 function App() {
   return (
     <div className="app">
-      <Deck />
+      {/* <Deck /> */}
       
       {/* <Intro/> */}
-      {/* <Home/> */}
+      <Home/>
     
       
     </div>
