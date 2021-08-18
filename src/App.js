@@ -1,8 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
-import Deck from './Views/CardDeck/Deck';
-import Intro from './Views/Introduction/Intro';
-import Home from './Views/Home/Home'
+import Portfolio from './Views/Portfolio/Portfolio';
+
 
 
 
@@ -13,7 +11,7 @@ function App() {
       {/* <Deck /> */}
       
       {/* <Intro/> */}
-      <Home/>
+      <Portfolio/>
     
       
     </div>
