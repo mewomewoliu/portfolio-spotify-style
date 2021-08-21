@@ -1,0 +1,18 @@
+.navbar {
+  position: fixed;
+  z-index: 10;
+  top: 148px;
+  left: 24px;
+}
+
+.nav-text-vertical {
+  font-size: 18px;
+  margin: 5px;
+  font-weight: 530;
+  transition: ease-in-out 0.2s;
+}
+
+.nav-text-vertical:hover {
+  color: #fb7ea8;
+  font-weight: 580;
+}

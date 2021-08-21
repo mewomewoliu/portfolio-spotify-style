@@ -9,11 +9,11 @@ const cards = [
   'https://64.media.tumblr.com/f26360272144ee756551ad5fad810e5a/92d54918776494f0-3b/s1280x1920/9c8fe73353c157f7528b1d2f1ccc701d736ab3e7.png',
   'https://64.media.tumblr.com/014f53e259cb2445760840ee71281817/92d54918776494f0-a1/s1280x1920/c8abf7de6a492c9a2f2e2dda83f10d84f536a89e.png',
   'https://64.media.tumblr.com/54332a8b522ff07744d9b7bbdb52cc53/92d54918776494f0-d6/s1280x1920/65bebadc6319e448cdbffb3df80a7066efabe79b.png',
-  'https://64.media.tumblr.com/743e6b0dea84e712db5db73374261a2b/92d54918776494f0-cc/s1280x1920/d1bb3724ae0a7f41ff9262879b80ec60c4fa8c04.png'
+  'https://64.media.tumblr.com/683c2240bbbf948af87aa3abbf876a62/98b6bebce865a131-50/s2048x3072/a8e064cff037b1ccc07abae8e27baf606dd128ce.png'
 ]
 
-const to = i => ({ x: 0, y: i * -4, scale: 0.8, rot: -10 + Math.random() * 10, delay: i * 200 })
-const from = i => ({ x: 0, y: i * -4, rot: 0, scale: 0.1, y: -1000 })
+const to = i => ({ x: 0, y: i * -4, scale: 0.8, rot: -5 + Math.random() * 10, delay: i * 200 })
+const from = i => ({ x: 0, y: 0, rot: 0, scale: 0.1, y: -1000 })
 const trans = (r, s) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
 
 export default  function Deck() {

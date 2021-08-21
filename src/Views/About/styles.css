@@ -1,0 +1,61 @@
+.background {
+  background: #3e8ef1;
+}
+
+/* ======== {The Card Deck}========  */
+.about {
+  background: #3e8ef1;
+  /* position: fixed; */
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  margin-bottom: 0px;
+}
+
+/* --- container of the cards --- */
+.about > div {
+  position: absolute;
+  top: 1%;
+  left: 40%;
+  /* width: 100vh;
+  height: 100vh; */
+  will-change: transform;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .about > div {
+    justify-content: center;
+  }
+}
+/* --- the cards ---- */
+
+.about > div > div {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-color: "#8A1CD8"; */
+  width: 400px;
+  /* max-width: 500px; */
+  height: 714px;
+  /* max-height: 800px; */
+
+  /* width: calc(76vmin - 3rem);
+  height: calc(76vmin - 3rem); */
+  overflow: hidden;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+  will-change: transform;
+  border-radius: 6px;
+  box-shadow: 2px 5px 27px rgb(0 0 0 / 34%);
+  -ms-transform-origin-z: 0px;
+}
+/* ============================================= */

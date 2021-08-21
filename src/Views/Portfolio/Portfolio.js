@@ -3,8 +3,9 @@ import ReactDOM from "react-dom";
 import { Transition, animated } from "react-spring";
 import { Container } from "@material-ui/core";
 import { Grid } from "@material-ui/core";
-
+import NavBar from '../NavBar/NavBar';
 import "./styles.css";
+
 
 const images = [
   {
@@ -71,9 +72,9 @@ export default function Portfolio() {
 
 
   return (
-    <div className="page">
+    <main className="page">
       <Container className="header">
-
+        <NavBar/>
       </Container>
       <Container className="projects">
         <div className="images-wraper">
@@ -84,7 +85,7 @@ export default function Portfolio() {
       </Container>
       
 
-    </div>
+    </main>
   );
 
 }
