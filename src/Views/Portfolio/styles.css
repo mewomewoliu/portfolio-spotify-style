@@ -7,27 +7,6 @@ body {
   width: 100%;
   height: 100%;
 }
-.wraper {
-  width: 359px;
-  height: 359px;
-  margin: 100px;
-  /* display: flex;
-  flex-wrap: wrap; */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.image {
-  width: 359px;
-}
-.title {
-  background-color: #242424;
-  color: #ffc664;
-  padding: 15px;
-  z-index: 10;
-  bottom: 0;
-}
 
 h3 {
   font-family: Circular Std;
@@ -44,87 +23,71 @@ h4 {
 }
 
 .card {
-  width: 359px;
-  height: 359px;
-  overflow: hidden;
+  width: 400px;
   position: relative;
-  margin: 30px;
+  box-shadow: none;
 }
-
-.card .content {
-  z-index: 2;
-  width: 420px;
-  position: absolute;
-  bottom: -100px;
-  transition: all 0.7s ease;
-  display: flex;
-  flex-direction: column;
+.project-image {
+  /* margin: 10px; */
+}
+.content {
+}
+.projects-wraper {
+  justify-content: center;
   align-items: center;
-  padding: 10px;
-  box-sizing: border-box;
-  min-height: 100px;
-  background: #111;
-  opacity: 100%;
+  margin: 0px;
+  display: flex;
 }
-
-.card .image {
-  z-index: 1;
-  height: 359px;
+.projects {
+  margin-top: 220px;
+  margin-bottom: 220px;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
 }
-
-.card img {
-  height: 100%;
-  width: 100%;
-  transition: all 0.5s ease;
-  transform: scale(1.2);
-}
-
-.card:hover .content {
-  bottom: 0px;
-  color: #fff;
-  opacity: 100%;
-}
-
-.card:hover .image img {
-}
-
-.card .content span:first-child {
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-align: center;
-  color: #fff;
-  font-size: 16px;
-}
-
-.card .content span:last-child {
-  font-size: 14px;
-  color: #18cfab;
-  text-align: center;
-  font-weight: 700;
-}
-
-@media screen and (max-width: 768px) {
-  .card {
-    width: 50%;
-  }
-  .card .content {
-    bottom: 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .card {
-    width: 100%;
-  }
-}
-
 .images-wraper {
-  display: flexbox;
-  flex-wrap: wrap;
 }
-/* .projects-link {
-  color: #007aff;
-  font-weight: 580;
-} */
+.items {
+  margin: 0px;
+}
+#root {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.simple-trans-main > div {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 800;
+  font-size: 25em;
+  will-change: transform, opacity;
+  text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+}
+.name {
+  position: fixed;
+  left: 100px;
+  bottom: 100px;
+  display: grid;
+}
+.name p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.name h2 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.name:hover {
+  color: #ffc664;
+}

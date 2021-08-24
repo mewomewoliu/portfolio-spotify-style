@@ -5,16 +5,15 @@ import { useGesture } from 'react-with-gesture'
 import './styles.css'
 
 const cards = [
-  'https://64.media.tumblr.com/02ae14e30a52f8e10334aca3cf4f7250/92d54918776494f0-15/s1280x1920/86c3788dacbfbad598de3ba656c0d546942d034b.png',
-  'https://64.media.tumblr.com/f26360272144ee756551ad5fad810e5a/92d54918776494f0-3b/s1280x1920/9c8fe73353c157f7528b1d2f1ccc701d736ab3e7.png',
-  'https://64.media.tumblr.com/014f53e259cb2445760840ee71281817/92d54918776494f0-a1/s1280x1920/c8abf7de6a492c9a2f2e2dda83f10d84f536a89e.png',
-  'https://64.media.tumblr.com/54332a8b522ff07744d9b7bbdb52cc53/92d54918776494f0-d6/s1280x1920/65bebadc6319e448cdbffb3df80a7066efabe79b.png',
-  'https://64.media.tumblr.com/683c2240bbbf948af87aa3abbf876a62/98b6bebce865a131-50/s2048x3072/a8e064cff037b1ccc07abae8e27baf606dd128ce.png'
+  
+  'https://64.media.tumblr.com/0f5b789b768497e9307754aa7fbc50f7/b2b4887bb35ef721-12/s2048x3072/a58043fd9c1b8723144bf87f0e470d9c3a3ecf7a.png',
+  'https://64.media.tumblr.com/f75e8a739ddeb25ab1fe5bfd3e538ec0/b2b4887bb35ef721-0a/s2048x3072/3982750b596607b7e3e05fa78167c88ace2279ca.png',
+  'https://64.media.tumblr.com/7f58b0d35457840fbdbdc533ae97e2be/b2b4887bb35ef721-4d/s2048x3072/463e1c00345805e5114b25ff3dfb36378e6db94a.png'
 ]
 
 const to = i => ({ x: 0, y: i * -4, scale: 0.8, rot: -5 + Math.random() * 10, delay: i * 200 })
 const from = i => ({ x: 0, y: 0, rot: 0, scale: 0.1, y: -1000 })
-const trans = (r, s) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
+const trans = (r, s) => `perspective(1500px) rotateX(0deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
 
 export default  function Deck() {
   const [gone] = useState(() => new Set())

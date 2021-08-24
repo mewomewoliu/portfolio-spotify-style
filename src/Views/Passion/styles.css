@@ -20,12 +20,6 @@
   will-change: transform, opacity;
   text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
 }
-.logo {
-  position: fixed;
-  z-index: -1;
-  left: 24px;
-  top: 24px;
-}
-.logo-img {
-  height: 32px;
+.sketch {
+  width: 50%;
 }

@@ -22,7 +22,7 @@ const NavBar = () => {
 			</div>
 			</Link>
 			
-			<Grid container direction="column" spacing={1}>
+			<Grid className="nav-list" container direction="column" spacing={1}>
 				<Grid item xs={3}>
 				<Link className=" nav About" to="/about"><p className='nav-text-vertical'> <span className="about-link"> About </span></p></Link>
 				</Grid>

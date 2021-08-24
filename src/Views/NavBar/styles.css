@@ -1,8 +1,4 @@
 .navbar {
-  position: fixed;
-  z-index: 10;
-  top: 148px;
-  left: 24px;
 }
 
 .nav-text-vertical {
@@ -15,4 +11,21 @@
 .nav-text-vertical:hover {
   color: #fb7ea8;
   font-weight: 580;
+}
+.logo {
+  position: fixed;
+  z-index: 1;
+  left: 24px;
+  top: 24px;
+}
+.logo-img {
+  height: 32px;
+}
+.nav-list {
+  z-index: 10;
+  /* background-color: aqua; */
+  position: fixed;
+  top: 108px;
+  left: 24px;
+  width: 100%;
 }
