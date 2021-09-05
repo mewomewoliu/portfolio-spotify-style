@@ -4,13 +4,13 @@
 .nav-text-vertical {
   font-size: 18px;
   margin: 5px;
-  font-weight: 530;
+  font-weight: 540;
   transition: ease-in-out 0.2s;
 }
 
 .nav-text-vertical:hover {
-  color: #fb7ea8;
-  font-weight: 580;
+  color: #ffc664;
+  font-weight: 600;
 }
 .logo {
   position: fixed;
@@ -28,4 +28,19 @@
   top: 108px;
   left: 24px;
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+.cv {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 580;
+  margin-left: 15px;
+  color: #171313;
+}
+.cv:hover {
+  color: #ffc664;
+  font-weight: 600;
 }

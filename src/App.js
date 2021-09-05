@@ -9,7 +9,7 @@ import Portfolio from './Views/Portfolio/Portfolio';
 import Passion from './Views/Passion/Passion'
 import Home from './Views/Home/Home';
 import About from './Views/About/About';
-
+import Musicmash from './Views/Casestudies/Musicmash';
 
 
 function App() {
@@ -22,15 +22,22 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
-          </Route>
+            </Route>
+            
           <Route path="/projects">
             <Portfolio/>
             </Route>
+
             <Route path="/passion">
             <Passion/>
             </Route>
+
             <Route path="/about">
             <About/>
+            </Route>
+
+            <Route path="/musicmash">
+            <Musicmash/>
           </Route>
           
         </Switch>

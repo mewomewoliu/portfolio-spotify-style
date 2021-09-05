@@ -1,7 +1,7 @@
 body {
   font-family: Circular Std;
 }
-.page {
+/* .page {
   background-color: #ffc664;
   overflow: hidden;
   width: 100%;
@@ -28,7 +28,7 @@ h4 {
   box-shadow: none;
 }
 .project-image {
-  /* margin: 10px; */
+ 
 }
 .content {
 }
@@ -90,4 +90,79 @@ h4 {
 
 .name:hover {
   color: #ffc664;
+} */
+
+/* ===== New ===== */
+
+.projects-page {
+  background-color: #ff4935;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.sec-one {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+  height: 100vh;
+}
+.sec-one h2 {
+  font-size: 88px;
+  font-weight: 900;
+  color: #ffffff;
+  padding-top: 200px;
+  overflow: hidden;
+}
+.sec-projects {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+  background-color: #ff4935;
+}
+.project-image {
+  background-color: #171313;
+  width: 664px;
+  height: 497px;
+  z-index: 1;
+  position: absolute;
+  left: 100px;
+  margin-top: 100px;
+}
+.project-intro {
+  background-color: #1e4cf0;
+  width: 734px;
+  height: 647px;
+  position: absolute;
+  right: 100px;
+  color: #ffffff;
+  text-align: start;
+}
+.text-intro {
+  margin-left: 200px;
+}
+.text-intro h3 {
+  color: #ffc664;
+  margin-top: 0px;
+}
+.text-intro h2 {
+  font-size: 64px;
+  margin-bottom: 0;
+  margin-top: 80px;
+}
+.text-intro h1 {
+  font-weight: 300;
+  width: 480px;
+  margin-top: 80px;
+}
+.ploygon {
+  position: relative;
+  margin-left: 300px;
 }

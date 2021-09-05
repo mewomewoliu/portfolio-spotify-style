@@ -30,7 +30,7 @@ export default function Home() {
                     </Container>
                 </Grid>
                 <Grid xs item>
-                    <img src="https://64.media.tumblr.com/a1b757758ee949daf58da67a5235b120/f9f9e4d13cdd0dd3-b2/s1280x1920/3d9a95e842e530ddcb65957ead6e845e91c312b0.png" className="homeImage"/>
+                    <img src="https://64.media.tumblr.com/c5db6de6ba179dd434ba148d2299d231/bb59e8c47a2fe029-95/s2048x3072/42422fc3b280609b968fa83c7ce74228299cae46.png" alt="Mia" className="homeImage"/>
                 </Grid>
             </Grid>
 

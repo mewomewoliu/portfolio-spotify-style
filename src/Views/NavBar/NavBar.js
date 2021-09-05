@@ -33,7 +33,9 @@ const NavBar = () => {
 				<Link className=" nav Passion" to="/passion"><p className='nav-text-vertical'><span className="passion-link">Passion</span></p></Link>
 				</Grid>
 				<Grid item xs={3}>
-				<Link className=" nav CV" to="/cv"><p className='nav-text-vertical'><span className="cv-link">CV</span></p></Link>
+					{/* <Link className=" nav CV" to="/cv"><p className='nav-text-vertical'><span className="cv-link">CV</span></p></Link> */}
+					
+					<a href="https://read.cv/miaomiao"><p className="cv">CV</p></a>
 				</Grid>
 			</Grid>
 		</div>
