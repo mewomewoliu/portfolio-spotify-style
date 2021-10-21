@@ -16,11 +16,7 @@ const CasesNav = () => {
 
 	return (
 		<div className="navbar">
-			{/* <Link className=" nav Home" to="/">
-			<div className="logo">
-				<img className="logo-img" src="https://64.media.tumblr.com/3ad4b7267cd1af63cd4f0af474ff6c0a/c4282aa208b95acd-a6/s1280x1920/6ca9598cd0b31330c0e41040a612f97fe4e5fb23.png" alt="logo"/>
-			</div>
-			</Link> */}
+			
 			
 			<Grid className="nav-list" container direction="column" spacing={1}>
 				<Grid item xs={3}>

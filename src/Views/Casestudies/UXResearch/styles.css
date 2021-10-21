@@ -1,0 +1,108 @@
+/* ================== MusicMash ==================*/
+body {
+  padding: 0px;
+  overflow-x: hidden;
+}
+.container-outside {
+  background-color: rgb(255, 255, 255);
+  width: 1440px;
+  height: 100%;
+  overflow: hidden;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 40px;
+
+  justify-content: center;
+}
+.header {
+  width: 1440px;
+  height: 571px;
+  overflow: hidden;
+}
+.header-img {
+  width: 1440px;
+}
+
+.title {
+}
+.title h1 {
+  font-size: 64px;
+  margin: 0px;
+  font-weight: 400;
+  width: 1040px;
+}
+
+.title h3 {
+  margin: 0px;
+  width: 1040px;
+}
+.title h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #242424;
+  width: 1040px;
+  text-align: justify;
+  letter-spacing: 0.01em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.title h2 {
+  font-size: 32px;
+  width: 1040px;
+  margin-top: 0px;
+}
+
+.figures {
+  width: 1040px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  align-self: center;
+}
+section {
+  justify-content: center;
+}
+
+.highlighted {
+  border-radius: 0em 0em 0em 0em;
+  background-image: linear-gradient(to top, #ffc664 40%, transparent 0);
+
+  /* text-decoration: underline;
+  text-underline-position: 2px below;
+  text-decoration-color: linear-gradient(to top, #ffc664 100%, transparent 0); */
+}
+.center-controll {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.highlight-bg {
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #efeaea;
+  width: 1040px;
+}
+.highlight-bg h4 {
+  width: 1000px;
+}
+
+.divider {
+  width: 1040px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  align-self: center;
+}
+
+section {
+  margin-bottom: 80px;
+}
+p {
+  font-size: 18px;
+}

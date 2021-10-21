@@ -4,6 +4,7 @@ import { Container } from "@material-ui/core";
 import { Grid } from "@material-ui/core";
 import Nav from './Nav'
 import './styles.css'
+import Footer from './Components/Footer';
 
 
 
@@ -17,20 +18,32 @@ export default function Home() {
             
            
             
-            <Grid conatiner direction="column">
-                    <Grid item>
-                        <div className="intro-title">
-                        <h2>Hej, I am Miaomiao</h2>
+                <Grid conatiner direction="column" spacing={4}>
+                   
+                    
+                        <Grid item xs>
+                            <div className="intro-title">
+                                <h1>Hej, I am Miaomiao</h1>
+                                <h3>I am a UX Designer 
+    who design engaging, minimal, smart interfaces for Websites & Mobile apps to optimize users’ experiences on sites and make audiences fall in love. </h3>
+                            </div>
+                    
+                    </Grid>
+                    <Grid item xs>
+                        <div className="block">
+
                         </div>
-                
-                </Grid>
-                <Grid xs item>
+                    </Grid>
+                    
+   
+                <Grid item xs>
                     <Container className="nav">
                         <Nav/>
                     </Container>
                 </Grid>
-                <Grid xs item>
-                    <img src="https://64.media.tumblr.com/c5db6de6ba179dd434ba148d2299d231/bb59e8c47a2fe029-95/s2048x3072/42422fc3b280609b968fa83c7ce74228299cae46.png" alt="Mia" className="homeImage"/>
+                    
+                <Grid item xs>
+                    <Footer/>
                 </Grid>
             </Grid>
 

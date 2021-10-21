@@ -9,7 +9,13 @@ import Portfolio from './Views/Portfolio/Portfolio';
 import Passion from './Views/Passion/Passion'
 import Home from './Views/Home/Home';
 import About from './Views/About/About';
-import Musicmash from './Views/Casestudies/Musicmash';
+import MusicMashVertical from './Views/Casestudies/UXResearch/MusicMashVertical';
+import BEET from './Views/Casestudies/UXDesignSystem/BEET';
+import BEETWeb from './Views/Casestudies/UXDesignSystem/BEETWeb';
+import MusicMashWeb from './Views/Casestudies/UXDesignSystem/MusicMashWeb';
+import COSEWeb from './Views/Casestudies/UXDesignSystem/COSEWeb';
+import MagicWindow from './Views/Casestudies/UXResearch/MagicWindow';
+
 
 
 function App() {
@@ -36,8 +42,23 @@ function App() {
             <About/>
             </Route>
 
-            <Route path="/musicmash">
-            <Musicmash/>
+            <Route path="/musicmash-app">
+            <MusicMashVertical/>
+            </Route>
+            <Route path="/your-beet-app">
+            <BEET/>
+            </Route>
+            <Route path="/your-beet-web">
+            <BEETWeb/>
+            </Route>
+            <Route path="/musicmash-web">
+            <MusicMashWeb/>
+            </Route>
+            <Route path="/cose-web">
+            <COSEWeb/>
+            </Route>
+            <Route path="/magic-window">
+            <MagicWindow/>
           </Route>
           
         </Switch>
