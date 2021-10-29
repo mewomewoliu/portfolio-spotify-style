@@ -15,6 +15,7 @@ import BEETWeb from './Views/Casestudies/UXDesignSystem/BEETWeb';
 import MusicMashWeb from './Views/Casestudies/UXDesignSystem/MusicMashWeb';
 import COSEWeb from './Views/Casestudies/UXDesignSystem/COSEWeb';
 import MagicWindow from './Views/Casestudies/UXResearch/MagicWindow';
+import SignIn from './Views/Authentification/SignIn';
 
 
 
@@ -25,7 +26,8 @@ function App() {
       <Router>
       <div>
         
-        <Switch>
+          <Switch>
+          <Route path="/signin" component={SignIn}/>
           <Route exact path="/">
             <Home />
             </Route>
@@ -59,7 +61,8 @@ function App() {
             </Route>
             <Route path="/magic-window">
             <MagicWindow/>
-          </Route>
+            </Route>
+            
           
         </Switch>
       </div>

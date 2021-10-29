@@ -5,10 +5,10 @@ import { useGesture } from 'react-with-gesture'
 import './styles.css'
 
 const cards = [
-  
-  'https://64.media.tumblr.com/0f5b789b768497e9307754aa7fbc50f7/b2b4887bb35ef721-12/s2048x3072/a58043fd9c1b8723144bf87f0e470d9c3a3ecf7a.png',
-  'https://64.media.tumblr.com/f75e8a739ddeb25ab1fe5bfd3e538ec0/b2b4887bb35ef721-0a/s2048x3072/3982750b596607b7e3e05fa78167c88ace2279ca.png',
-  'https://64.media.tumblr.com/7f58b0d35457840fbdbdc533ae97e2be/b2b4887bb35ef721-4d/s2048x3072/463e1c00345805e5114b25ff3dfb36378e6db94a.png'
+  'https://64.media.tumblr.com/7f237f61b82475e7c9bba93b28de3b59/a36499a9a0626fc9-fb/s1280x1920/017c4467c57dd95e87d19b0ee71949e05ace51a9.png',
+  'https://64.media.tumblr.com/87809dc22993f4994039fea69a57b3c2/d85a65bb650f1dfa-bb/s1280x1920/1be579012f3e79537acd6f31b82bb8d72c62e41c.png',
+  'https://64.media.tumblr.com/7e9863b5a459f070b93c132f1f1d9806/d85a65bb650f1dfa-4b/s1280x1920/de41b20ed9482352e19a5f873f13c54ba916bded.png',
+  'https://64.media.tumblr.com/79bb92ad29cb157cf37af236acd273de/a36499a9a0626fc9-98/s1280x1920/db1c666e1eb912fae591ad0c5a1ba4ec4e4667bd.png'
 ]
 
 const to = i => ({ x: 0, y: i * -4, scale: 0.8, rot: -5 + Math.random() * 10, delay: i * 200 })

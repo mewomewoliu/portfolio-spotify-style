@@ -1,0 +1,58 @@
+.signin-container {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+.text-center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 80px;
+}
+
+.form-control {
+  font-size: 18px;
+  border: solid 2px #000;
+  border-radius: 0px;
+  padding: 10px;
+  color: #000;
+  background-color: #ffffff;
+}
+.btn {
+  font-size: 20px;
+  border: solid 2px #000;
+  border-radius: 0px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 80px;
+  color: #ffffff;
+  transition: ease-in-out 0.2s;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.back-btn {
+  position: absolute;
+  top: 40px;
+  right: 80px;
+  color: #000;
+}
+.back-btn h2 {
+  color: #000;
+}
+.back-btn h2:hover {
+  color: #1e4cf0;
+}

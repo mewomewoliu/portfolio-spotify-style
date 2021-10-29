@@ -1,5 +1,6 @@
 .background {
   background: #ffffff;
+  height: 100%;
 }
 
 /* ======== {The Card Deck}========  */
@@ -18,8 +19,8 @@
 /* --- container of the cards --- */
 .about > div {
   position: absolute;
-  top: 1%;
-  left: 40%;
+  top: 10%;
+  left: 55%;
   /* width: 100vh;
   height: 100vh; */
   will-change: transform;
@@ -42,9 +43,9 @@
   background-repeat: no-repeat;
   background-position: center center;
   /* background-color: "#8A1CD8"; */
-  width: 400px;
+  width: 600px;
   /* max-width: 500px; */
-  height: 714px;
+  height: 600px;
   /* max-height: 800px; */
 
   /* width: calc(76vmin - 3rem);
@@ -54,8 +55,23 @@
   user-select: none;
   touch-action: none;
   will-change: transform;
-  border-radius: 20px;
-  box-shadow: 2px 5px 27px rgb(0 0 0 / 34%);
+  border-radius: 0px;
+  /* box-shadow: 2px 5px 27px rgb(0 0 0 / 34%); */
+  box-shadow: 2px 5px 27px rgb(0 0 0 / 10%);
   -ms-transform-origin-z: 0px;
 }
 /* ============================================= */
+
+.profile-img {
+  position: absolute;
+  top: 13%;
+  left: 15%;
+  height: 100px;
+}
+.me-img {
+  height: 600px;
+}
+
+.aboutme-social-media {
+  margin-top: 20px;
+}
