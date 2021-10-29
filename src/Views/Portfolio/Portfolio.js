@@ -63,7 +63,7 @@ export default function Portfolio() {
         </div></a> 
 
         <div className="project-image down"></div>
-        <a href="https://music-mash.notion.site/MusicMash-fdf1996c425e48b8bd7919bedc9cdf83"><div className="project-image up">
+        <a href="https://uxmia.notion.site/MusicMash-fdf1996c425e48b8bd7919bedc9cdf83"><div className="project-image up">
         <img src="https://64.media.tumblr.com/2fdec80c6dbd9d7af75edf3852180927/ab5c1ce57c25b01a-a2/s2048x3072/56e6aac62c0d97aef5c3c2b39d525333b03c6a1e.png" className="project"/>
         </div></a>
           
