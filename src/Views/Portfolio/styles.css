@@ -1,5 +1,6 @@
 body {
-  font-family: Circular Std;
+  /* font-family: Circular Std; */
+  font-family: "Poppins", sans-serif;
 }
 
 /* ===== New ===== */
@@ -24,10 +25,9 @@ body {
 }
 .sec-one h2 {
   font-size: 88px;
-  font-weight: 900;
+  font-weight: 800;
   color: #000000;
   padding-top: 200px;
-  overflow: hidden;
 }
 
 .sec-projects {

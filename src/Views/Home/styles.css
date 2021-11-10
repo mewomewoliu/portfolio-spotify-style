@@ -1,3 +1,6 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
 main {
   /* #9e4c4c is very nice */
   background-color: #ffffff;
@@ -13,26 +16,22 @@ main {
 }
 
 h2 {
-  font-family: "Circular Std";
-  font-size: 26px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
 }
 h1 {
   font-size: 28px;
-  font-family: "Circular Std";
-  font-weight: 300;
+  font-weight: 800;
 }
 
 h3 {
-  font-family: Circe;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+  font-weight: 300;
+  line-height: 32px;
   letter-spacing: 0.01em;
+  color: #242424;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 .intro-title h3 {
   width: 629px;
   text-align: justify;
